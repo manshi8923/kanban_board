@@ -1,0 +1,19 @@
+.card{
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+    background-color: rgb(255,255,255);
+}
+.h5{
+    padding: 6px;
+    color: gray;
+}
+.para{
+    margin-left: 12px;
+}
+.feature{
+    padding: 10px;
+    color: gray;
+}

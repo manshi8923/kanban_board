@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    background-color: rgb(255,255,255);
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+    height: 2vh;
+    padding: 3rem;
+    margin-bottom: 100px;
+}
+.display{
+    width: 100%;
+    height: 85vh;
+}
+.display-menu{
+   background-color: gainsboro; 
+   width: 200px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   box-shadow: 0 0 10px rgb(0,0,0,0.5);
+   border-radius: 2px solid white;
+}
+.display-menu-active{
+    left: 0;
+    display: none;
+    transition: 350ms;
+}
+ul{
+    margin: 10px;
+}
+.display-menu-items{
+    width: 100%;
+}
+.display-toggle{
+    background-color: gainsboro;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.btn{
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+#btn1{
+    margin-top: -50px;
+}
