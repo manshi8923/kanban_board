@@ -11,7 +11,7 @@
 .nav{
     background-color: rgb(255,255,255);
     box-shadow: 0 0 10px rgb(0,0,0,0.5);
-    width: 100%;
+    width: 98%;
     height: 3rem;
     padding: 1rem;
     margin-bottom: 3.2rem;
@@ -85,7 +85,7 @@ li{
     color: lightblack;
 }
 .small{
-    margin-left: 5rem;
+    margin-left: 4rem;
     color: gray;
 }
 .add{

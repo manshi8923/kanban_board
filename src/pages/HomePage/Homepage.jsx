@@ -93,9 +93,9 @@ const Homepage = () => {
               <ul>
                 <li className='prior'>
                   {grouping === "priority" ? (logos[key]) : (grouping === "user" ? <BsPersonCircle /> : type[key])}&nbsp;&nbsp;
-                  {grouping === "priority" ? object[key] : (grouping === "user") ? userIdtoName[key] : key} 
+                  {grouping === "priority" ? object[key] : (grouping === "user") ? userIdtoName[key] : key} <span style={{ color:"gray" }}>{finaldata[key].length}</span>
                   
-                  <span className='small'>{finaldata[key].length} &nbsp;+</span><span className='add'>...</span></li>
+                  <span className='small'> &nbsp;+</span><span className='add'>...</span></li>
                 {
                   finaldata[key].sort((a, b) => sortingBases(a, b)).map((ele, index) => (
                     <li>
